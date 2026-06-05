@@ -1,0 +1,17 @@
+
+.product-search .cards article {
+    width: 20rem;
+    height: auto;
+}   
+
+.product-search .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.product-search .cards article img{
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover ;
+}
