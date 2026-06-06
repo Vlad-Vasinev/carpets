@@ -61,3 +61,39 @@ if(products) {
   }
         
 }
+
+
+// const products = document.querySelector('.products')
+
+// if(products) {
+//     const productsForm = products.querySelector('form')
+//     const productsInput = productsForm.querySelector('input')
+//     const productsButton = productsForm.querySelector('button')
+
+//     const cards = products.querySelectorAll('[data-category]')
+
+//     const functionFilter = (elements, inputValue) => Array.from(elements).filter((card) => !card.dataset.category.includes(inputValue.value))
+//     const functionDom = (elements, value) => {
+//         elements.forEach((el) => {
+//             el.style.display = value
+//         })
+//     }
+        
+//     productsForm.addEventListener('submit', (e) => {
+//         e.preventDefault()
+//     })
+
+//     productsInput.addEventListener('input', () => {
+//         if(productsInput.value == '') {
+//             functionDom(cards, "block")
+//         }
+//     })
+
+//     productsButton.addEventListener('click', () => {
+//         functionDom(cards, "block")
+//         const filtered = functionFilter(cards, productsInput)
+//         functionDom(filtered, "none")
+
+//     })
+
+// }
