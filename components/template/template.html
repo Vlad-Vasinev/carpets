@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template</title>
+    <link rel="stylesheet" href="template.css">
+</head>
+<body>
+    
+    <button class="open-popup">Click to open popup</button>
+
+    <template id="popupTemplate">
+        <div class="popup-overlay">
+            <div class="popup-content">
+                <span class="popup-close">&times;</span>
+                <h2>Заголовок попапа</h2>
+                <p>Текст внутри попапа. Можно добавить любую информацию.</p>
+                <button class="popup-action">Действие</button>
+            </div>
+        </div>
+    </template>
+
+    <script src="template.js"></script>
+
+</body>
+</html>

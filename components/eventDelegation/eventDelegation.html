@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Delegation</title>
+
+    <link rel="stylesheet" href="eventDelegation.css">
+
+</head>
+<body>
+    
+    <main>
+        <section aria-labelledby="carpet-categories" class="product-search">
+          <h2 id="carpet-categories" class="section-title">Carpet categories</h2>
+          <form>
+            <label></label>
+            <input />
+            <button class="search-btn">Find category</button>
+          </form>
+          <div class="cards">
+            <article class="card" data-category="xxl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-1.png" alt="Red pattern carpet" />
+                  <figcaption>xxl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-2.png" alt="Red pattern carpet" />
+                  <figcaption>xl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xxl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-3.png" alt="Red pattern carpet" />
+                  <figcaption>xxl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-4.png" alt="Red pattern carpet" />
+                  <figcaption>xl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-5.png" alt="Red pattern carpet" />
+                  <figcaption>xl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="forkids">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-1.png" alt="Red pattern carpet" />
+                  <figcaption>forkids pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="forkids">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-2.png" alt="Red pattern carpet" />
+                  <figcaption>forkids pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xxl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-3.png" alt="Red pattern carpet" />
+                  <figcaption>xxl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xxl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-4.png" alt="Red pattern carpet" />
+                  <figcaption>xxl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="forkids">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-5.png" alt="Red pattern carpet" />
+                  <figcaption>forkids pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="forkids">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-1.png" alt="Red pattern carpet" />
+                  <figcaption>forkids pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-2.png" alt="Red pattern carpet" />
+                  <figcaption>xl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-3.png" alt="Red pattern carpet" />
+                  <figcaption>xl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-4.png" alt="Red pattern carpet" />
+                  <figcaption>xl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="forkids">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-5.png" alt="Red pattern carpet" />
+                  <figcaption>forkids pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="forkids">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-1.png" alt="Red pattern carpet" />
+                  <figcaption>forkids pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+            <article class="card" data-category="xxl">
+              <div href="" class="card__link">
+                <figure>
+                  <img src="/components/card-slider/content/img/rug-2.png" alt="Red pattern carpet" />
+                  <figcaption>xxl pattern carpet</figcaption>
+                </figure>
+              </div>
+            </article>
+          </div>
+        </section>
+    </main>
+
+    <script src="eventDelegation.js"></script>
+
+</body>
+</html>
